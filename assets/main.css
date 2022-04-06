@@ -12,9 +12,9 @@ body {
     --color-5: #f9002f;
 }
 
-h1 {
+.headline {
     font-family: "Exo", sans-serif;
-    font-size: 4.5vw;
+    font-size: 2rem;
     font-weight: 900;
     width: -webkit-min-content;
     width: -moz-min-content;
@@ -101,18 +101,21 @@ canvas {
     font-size: 1.3em;
     position: absolute;
     z-index: 10;
-    width: 20rem;
-    height: 22rem;
+    width: 22%;
     background: #eee;
     top: 42%;
     left: 50%;
     margin: -110px 0 0 -100px;
     padding: 20px;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 
     z-index: 100;
+}
 
-    &.hide {
-        display: none;
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .panel {
+        width: 50%;
     }
+}
