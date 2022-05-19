@@ -103,9 +103,9 @@ canvas {
     z-index: 10;
     width: 22%;
     background: #eee;
-    top: 42%;
-    left: 48%;
-    margin: -110px 0 0 -100px;
+    top: 35%;
+    left: 42%;
+    margin: -110px 0 0 0;
     padding: 20px;
     border-radius: 4px;
     box-sizing: content-box;
